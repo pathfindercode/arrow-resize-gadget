@@ -26,7 +26,7 @@ const ResizeGadget = () => {
           onClick={() => setIsVisible(false)}
           className="absolute top-1 right-2 flex w-7 h-7 p-2 justify-center items-center flex-shrink-0 rounded-lg border border-[#E9EAEB] bg-[#F9FAFB] shadow-[9px_20px_24px_-4px_rgba(16,24,40,0.14),0px_8px_8px_-4px_rgba(16,24,40,0.14)] hover:bg-[#F5F5F5] cursor-pointer z-20"
         >
-          <X className="w-3.5 h-3.5" />
+          <X className="w-7 h-7" />
         </button>
       </div>
     </div>
