@@ -21,10 +21,10 @@ const ResizeGadget = () => {
           You can resize here!
         </div>
 
-        {/* Close Button */}
+        {/* Close Button - Repositioned to top-right corner */}
         <button 
           onClick={() => setIsVisible(false)}
-          className="flex w-7 h-7 p-2 justify-center items-center flex-shrink-0 rounded-lg border border-[#E9EAEB] bg-[#F9FAFB] shadow-[9px_20px_24px_-4px_rgba(16,24,40,0.14),0px_8px_8px_-4px_rgba(16,24,40,0.14)] hover:bg-[#F5F5F5] cursor-pointer relative z-20"
+          className="absolute -top-3 -right-3 flex w-7 h-7 p-2 justify-center items-center flex-shrink-0 rounded-lg border border-[#E9EAEB] bg-white shadow-[0px_2px_4px_0px_rgba(16,24,40,0.06),0px_4px_8px_-2px_rgba(16,24,40,0.10)] hover:bg-[#F5F5F5] cursor-pointer relative z-20"
         >
           <X className="w-3.5 h-3.5" />
         </button>
